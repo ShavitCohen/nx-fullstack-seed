@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "projects": {
+    "app": "apps/app",
+    "app-e2e": "apps/app-e2e",
+    "backend": "apps/backend",
+    "markdown": "libs/markdown",
+    "ui-components": "libs/ui-components",
+    "ui-components-e2e": "apps/ui-components-e2e"
+  }
+}

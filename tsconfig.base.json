@@ -15,8 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mySeed/markdown": ["libs/markdown/src/index.ts"],
-      "@mySeed/ui-components": ["libs/ui-components/src/index.ts"]
+      "@seed/markdown": ["libs/markdown/src/index.ts"],
+      "@seed/ui-components": ["libs/ui-components/src"],
+      "@seed/ui-components/*": ["libs/ui-components/src/lib/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

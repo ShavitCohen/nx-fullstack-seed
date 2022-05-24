@@ -1,5 +1,5 @@
 {
-  "npmScope": "mySeed",
+  "npmScope": "seed",
   "affected": {
     "defaultBase": "main"
   },

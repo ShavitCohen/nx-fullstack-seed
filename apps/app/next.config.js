@@ -10,6 +10,19 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  i18n: {
+    locales: ['en', 'de', 'fr'],
+    defaultLocale: 'en',
+  },
+
+  rewrites: () => ({
+    fallback: [
+      {
+        source: '/:path*',
+        destination: '/:path*/index.html',
+      },
+    ],
+  }),
 };
 
 module.exports = withNx(nextConfig);
